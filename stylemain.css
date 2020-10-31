@@ -1,0 +1,63 @@
+﻿
+.mobilesec {
+    display: none;
+}
+
+
+@media (max-width:800px) {
+    .fancybox-infobar {
+        left: 0;
+        margin-left: 0
+    }
+
+    .fancybox-button--left, .fancybox-button--right {
+        display: none !important
+    }
+
+    .fancybox-caption {
+        padding: 20px 0;
+        margin: 0
+    }
+
+    .mobilesec {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999999;
+    }
+
+        .mobilesec .mobilesec-inn {
+            text-align: center;
+            padding: 5px 0px;
+            background-color: #000;
+        }
+
+            .mobilesec .mobilesec-inn a {
+                border-radius: 0px;
+                background: none;
+                border: none;
+                font-size: 12px;
+                color: #fff;
+            }
+
+            .mobilesec .mobilesec-inn .fa {
+                font-size: 12px;
+            }
+
+        .mobilesec .inn1 {
+            background: rgba(0,0,0, 0.7);
+        }
+
+        .mobilesec .inn2 {
+            background-color: rgba(191,0,3, 0.8);
+            padding: 9px 0px;
+        }
+
+        .mobilesec .inn3 {
+            background: rgba(0,0,0, 0.7);
+        }
+}
+
+.
